@@ -1,5 +1,8 @@
 	
-@font-face { font-family: Matilde; src: url('matilde.otf'); } 
+
+svg{
+	font-family: Amatic SC, serif;
+}
 
 
 .title {
@@ -14,49 +17,29 @@ padding:10px;
 body {
 	 background-color:#FDE9E2;
 	 width:100%;
-	 height:1500px;
+	 height:2000px;
 	 }
-
-.je  {
-	
-	}
-
 
 .nav-tabs {
 	
 	width:500px;
 	border-color:transparent;
 }
-
-
-
-
-	.cheese {
-	height:100%;
-	width:100%;
-}
-
-
+	
 .nav {
 
 
-		background-color: #C2F6E9;
 		text-align: center;
 		
 		padding-left:950px;
 		width:100%;
-
-	}
-
-
-	.nav  {
-		padding:20px;
+	    padding:20px;
 		background-color: #C2F6E9;
 		padding:8px;
-text-align:right;
+        z-index: 8;
 	}
 
-#E {
+#E { /*Nav font*/
 	font-size:60px;
 }
 
@@ -64,11 +47,13 @@ text-align:right;
 			padding-left:15px;
 			color:#FDE9E2;
 			text-decoration: none;
+			z-index: 8;
 	}
 
 	.nav a {
 		color:#444444;
-		font-family: Matilde;
+		font-family: Amatic SC;
+		z-index: 8;
 
 	}
 	
@@ -76,52 +61,48 @@ text-align:right;
 	.nav ul {
 	margin-left:27%;
 		background-color: transparent;
+		border-color:transparent;
+		width:1000px;
+		z-index: 8;
 	}
 
-	
 
-	
-
-
-	#j {
+	#j { /*Poster*/
 		background-color:#FFFAEF	;
 		height:1200px;
-		width:170%	;
+		width:230%	;
 			
 			border-style: solid ;
 			border-width: 2px;
     box-shadow: 10px 10px 5px #888888;
 
 			border-color: #DDDDDD;
-		margin-left:-20%;
+		margin-left:-45%;
 	 	
 	 	
 	}
 
 	.poster {
-		width:800px;	
+		width:40%;	
 		margin-left:22%;
 		background-color:#faebd7;
+		z-index:10;
+		position: absolute;
 	}
 
 .green {
 	background-color:#C2F6E9;
-	height:150%;
-	width:100%;
+	height:88%;
+		z-index:-8;
 }
 
 	
-img {
-	height:598px;
-	width:850px;
-	margin-left:2%;
-	margin-top:250px;
-	margin-bottom: -500px
-	transparent:75%;
-
-}
-
-.line {
+	img.line{
+	
+	width:180%	;
+	height:auto;
+	margin-left:10%;
+	margin-top:35px;
 	box-shadow: 10px 10px 10px 10px  #444444;
 	z-index:2;
 	position: relative;
@@ -129,21 +110,17 @@ img {
 }
 
 .enj {
-	width:500px;
-	height:200px;
-	position: fixed;
-		margin-left: 20%;
+	
+		position: relative;
+		font-family: Amatic SC; 	
+		margin-left: 65%;
 		margin-top:18px;
 		padding:10px;
-		z-index: 1;
-	}
+		z-index: 10;
+		width:500px;
+		height:auto	;
+	}	
 
-
-.line {
-	width:150%;
-	height:50%;
-	margin-left:28%;
-}
 
 .rings {
 	height:20%;
@@ -151,124 +128,15 @@ img {
 }
 
 
-.jacob {
-	border-radius: 200px;
-	height:40%;
-	width: 35%;
-	margin-left:10%;
-	border-width: 10px;
 
 
-}
-
-.emma {
-	border-radius: 200px;
-	height:40%;
-	width: 35%;
-	margin-left:10%;
-	border-width: 10px;
-
-
-}
-		
-/** {margin: 0; padding: 0;}
-
-html, body {height: 100%;}
-
-
-
-/*h1 {
-	display: inline-block;
-	font-size: 14px;
-	line-height: 28px;
-	color: #8699A0;
-	text-shadow: 0 0 1px #758890;
-	margin: 120px 0;
-	font-family: arial, verdana;
-	outline: none;
-	padding: 14px 30px;
-	position: relative;
-	text-transform: uppercase;
-		box-shadow: 
-		0 0 30px 0 rgba(0, 0, 0, 0.1), 
-		0 36px 0 -18px #B1E3E2;
-}
-
-
-/*h1:before {
-	content: '';
-	position: absolute;
-	top: 18px;
-	left: -15%;
-	z-index: -1;
-	width: 130%;
+.stars {
 	
-	height: 0;
-	border: 28px solid rgba(0, 0, 0, 0);
-	border-left: 28px solid #B1E3E2;
-	border-right: 28px solid #B1E3E2;
+	z-index:3;
+	position:absolute;
+	width:100%;
+	height:1450%;
+	margin-top:-1500px;
+	background:transparent;
+	}
 
-}
-
-
-/*h1:after {
-	content: '';
-	width: 100%;
-	height: 0;
-	position: absolute;
-	top: 100%; left: 0;
-	z-index: -1;
-	
-	border-top: 18px solid #99acb2;
-	border-left: 18px solid transparent;
-	border-right: 18px solid transparent;
-}
-
-/*h1, h1:before {
-	
-	background-image: 
-		/*2 grey borders*/
-		/*
-		linear-gradient(
-			transparent 8%, 
-			rgba(0, 0, 0, 0.1) 8%, 
-			rgba(0, 0, 0, 0.1) 14%, 
-			transparent 14%, 
-			transparent 86%, 
-			rgba(0, 0, 0, 0.1) 86%, 
-			rgba(0, 0, 0, 0.1) 92%, 
-			transparent 92%
-		), 
-		/*white gloss gradient*/
-		/*linear-gradient(
-			rgba(255, 255, 255, 0.75), 
-			rgba(255, 255, 255, 0) 
-		), 
-		/*thin stripes*/
-		/*linear-gradient(
-			45deg, 
-			transparent 40%, 
-			rgba(0, 0, 0, 0.1) 40%, 
-			rgba(0, 0, 0, 0.1) 60%, 
-			transparent 60%
-		), 
-		/*white base*/
-		/*linear-gradient(white, white); 
-	background-size: 
-		cover, /*borders*/
-		/*cover, /*white gloss*/
-		/*4px 4px, /*thin stripes*/
-		/*cover; 
-}/*
-	
-h1, h1:before, h1:after {
-	box-sizing: border-box;
-
-	background-origin: border-box;
-}
-
-.content {
-	margin-top:-200px;
-	z-index: 1;
-	position: absolute;
-}
