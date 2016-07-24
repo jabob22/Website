@@ -98,9 +98,9 @@ body {
 
 	
 img.line {
-    width: 183%;
+    width: 91%;
     height: auto;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 35px;
     box-shadow: 10px 10px 10px 10px #444444;
     z-index: 2;
@@ -109,11 +109,11 @@ img.line {
 
 .enj {
     position: relative;
-    margin-left: 61%;
+    margin-left: 26%;
     margin-top: 18px;
     padding: 10px;
     z-index: 10;
-    width: 70%;
+    width: 44%;
     height: auto;
 }	
 
