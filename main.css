@@ -110,15 +110,14 @@ body {
 }
 
 .enj {
-	
-		position: relative;
-		margin-left: 60%;
-		margin-top:18px;
-		padding:10px;
-		z-index: 10;
-		width:600px;
-		height:auto	;
-	}	
+    position: relative;
+    margin-left: 31%;
+    margin-top: 18px;
+    padding: 10px;
+    z-index: 10;
+    width: 600px;
+    height: auto;
+}	
 
 
 .rings {
@@ -139,3 +138,6 @@ body {
 	background:transparent;
 	}
 
+.col-xs-6 {
+    width: 100%;
+}
