@@ -5,6 +5,11 @@ svg{
 }
 
 
+#h {
+margin-left:-30%;
+font-size:4.5em;
+}
+
 .title {
 	
 padding:10px;
@@ -33,14 +38,15 @@ body {
 		
 		padding-left:950px;
 		width:100%;
-	    padding:20px;
+	    padding:10px;
 		background-color: #C2F6E9;
 		padding:8px;
         z-index: 8;
 	}
 
 #E { /*Nav font*/
-	font-size:4.5em;
+	font-size:4vw;
+	
 }
 
 	.nav li {
