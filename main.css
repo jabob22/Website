@@ -1,7 +1,7 @@
 	
 
 svg{
-	font-family: Amatic SC, serif;
+	font-family: Amatic SC;
 }
 
 
@@ -17,7 +17,7 @@ padding:10px;
 body {
 	 background-color:#FDE9E2;
 	 width:100%;
-	 height:2000px;
+	 height:1300px;
 	 }
 
 .nav-tabs {
@@ -92,34 +92,30 @@ body {
 
 .green {
 	background-color:#C2F6E9;
-	height:88%;
-		z-index:-8;
+	height:100%;
+	z-index:-8;
 }
 
 	
-	img.line{
-	
-	width:180%	;
-	height:auto;
-	margin-left:10%;
-	margin-top:35px;
-	box-shadow: 10px 10px 10px 10px  #444444;
-	z-index:2;
-	position: relative;
-
+img.line {
+    width: 183%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 35px;
+    box-shadow: 10px 10px 10px 10px #444444;
+    z-index: 2;
+    position: relative;
 }
 
 .enj {
-	
-		position: relative;
-		font-family: Amatic SC; 	
-		margin-left: 65%;
-		margin-top:18px;
-		padding:10px;
-		z-index: 10;
-		width:500px;
-		height:auto	;
-	}	
+    position: relative;
+    margin-left: 61%;
+    margin-top: 18px;
+    padding: 10px;
+    z-index: 10;
+    width: 70%;
+    height: auto;
+}	
 
 
 .rings {
