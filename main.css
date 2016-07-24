@@ -104,6 +104,7 @@ img.line {
     margin-top: 35px;
     box-shadow: 10px 10px 10px 10px #444444;
     z-index: 2;
+    margin-bottom:75;
     position: relative;
 }
 
