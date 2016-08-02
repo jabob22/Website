@@ -29,6 +29,7 @@ body {
 	
 	width:auto;
 	border-color:transparent;
+	display:inline-block;
 }
 	
 .nav {
@@ -60,7 +61,7 @@ z-index: 8;
 	
 	
 .nav ul {
-margin-left:31%;
+
 background-color: transparent;
 border-color:transparent;
 width:auto;
