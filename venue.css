@@ -42,7 +42,19 @@ body {
 
 
 
+p:first-child { 
+	text-align:center;
+font-family:Amatic SC;
+font-size:4vw;
+color:#807F7E;
+}
 
+.col-md-12 {
+	text-align:center;
+	font-family:amatic SC;
+	font-size:2vw;
+	color:#807F7E;
+}
 
 
 .nav {
@@ -156,3 +168,7 @@ img.line {
 	margin-top:-1500px;
 	background:transparent;
 	}
+
+.col-md-4 {
+	text-align:center;
+}
