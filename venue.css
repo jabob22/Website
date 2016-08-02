@@ -28,6 +28,7 @@ body {
 	
 	width:auto;
 	border-color:transparent;
+	display:inline-block;
 }
 	
 
@@ -91,7 +92,7 @@ color:#807F7E;
 	
 	
 	.nav ul {
-	margin-left:31%;
+	
 		background-color: transparent;
 		border-color:transparent;
 		width:auto;
