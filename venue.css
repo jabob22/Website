@@ -173,3 +173,7 @@ img.line {
 	text-align:center;
 	padding-bottom:15px;
 }
+
+iframe {
+	padding:10px;
+}
