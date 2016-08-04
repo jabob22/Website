@@ -36,12 +36,16 @@ body {
 			z-index: 8;
 	}
 
-	.nav a {
-		color:#807F7E;
-		font-family: Amatic SC;
-		z-index: 8;
+.nav a {
+color:#807F7E;
+font-family: Amatic SC;
+z-index: 8;
+position:relative;
+}
 
-	}
+.nav a:active {
+	top:2px;
+}
 
 	
 	.nav ul {
