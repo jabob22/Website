@@ -57,6 +57,11 @@ z-index: 8;
 color:#807F7E;
 font-family: Amatic SC;
 z-index: 8;
+position:relative;
+}
+
+.nav a:active {
+	top:2px;
 }
 	
 	
